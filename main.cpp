@@ -118,7 +118,6 @@ void renderScene(void) {
 	gluLookAt(x, y, z, // Vị trí camera
 		x + lx, y + ly, z + lz, // Hướng nhìn của camera
 		0.0f, 1.0f, 0.0f); // Vector hướng lên
-
 	objs.renderObject(); // Vẽ đối tượng
 	glutSwapBuffers(); // Hoán đổi bộ đệm kép
 }

@@ -424,7 +424,7 @@ void object::renderObject() {
 		}
 		else {
 			glBegin(GL_LINE_LOOP);
-			glColor3f(0, 0, 1);
+			glColor3f(0, 1, 0);
 		}
 		{
 			for (unsigned long k = 0; k < obj[obj_current].f[j].n.size(); k++) {
