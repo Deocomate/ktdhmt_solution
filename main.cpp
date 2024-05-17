@@ -125,7 +125,7 @@ void renderScene(void) {
 
 // Hàm chính
 int main(int argc, char** argv) {
-	objs.addObject("data/car.obj", 10); // Thêm đối tượng từ file "data/car.obj"
+	objs.addObject("data/coconuts.obj", 10); // Thêm đối tượng từ file "data/car.obj"
 
 	glutInit(&argc, argv); // Khởi tạo GLUT
 	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA); // Thiết lập chế độ hiển thị
